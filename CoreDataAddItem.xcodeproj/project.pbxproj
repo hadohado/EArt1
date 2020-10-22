@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C4CDACC2542286600A38356 /* EArt1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EArt1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4CDACC2542286600A38356 /* CoreDataAddItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataAddItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4CDACF2542286600A38356 /* EArt1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EArt1App.swift; sourceTree = "<group>"; };
 		2C4CDAD12542286600A38356 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C4CDAD32542286700A38356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		2C4CDACD2542286600A38356 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C4CDACC2542286600A38356 /* EArt1.app */,
+				2C4CDACC2542286600A38356 /* CoreDataAddItem.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C4CDACB2542286600A38356 /* EArt1 */ = {
+		2C4CDACB2542286600A38356 /* CoreDataAddItem */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C4CDAE02542286700A38356 /* Build configuration list for PBXNativeTarget "EArt1" */;
+			buildConfigurationList = 2C4CDAE02542286700A38356 /* Build configuration list for PBXNativeTarget "CoreDataAddItem" */;
 			buildPhases = (
 				2C4CDAC82542286600A38356 /* Sources */,
 				2C4CDAC92542286600A38356 /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = EArt1;
+			name = CoreDataAddItem;
 			productName = EArt1;
-			productReference = 2C4CDACC2542286600A38356 /* EArt1.app */;
+			productReference = 2C4CDACC2542286600A38356 /* CoreDataAddItem.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C4CDAC72542286600A38356 /* Build configuration list for PBXProject "EArt1" */;
+			buildConfigurationList = 2C4CDAC72542286600A38356 /* Build configuration list for PBXProject "CoreDataAddItem" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C4CDACB2542286600A38356 /* EArt1 */,
+				2C4CDACB2542286600A38356 /* CoreDataAddItem */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +285,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alpinetest.EArt1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpinetest.CoreDataAddItem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +307,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alpinetest.EArt1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpinetest.CoreDataAddItem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C4CDAC72542286600A38356 /* Build configuration list for PBXProject "EArt1" */ = {
+		2C4CDAC72542286600A38356 /* Build configuration list for PBXProject "CoreDataAddItem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C4CDADE2542286700A38356 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C4CDAE02542286700A38356 /* Build configuration list for PBXNativeTarget "EArt1" */ = {
+		2C4CDAE02542286700A38356 /* Build configuration list for PBXNativeTarget "CoreDataAddItem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C4CDAE12542286700A38356 /* Debug */,

@@ -17,6 +17,9 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
 
     var body: some View {
+        VStack {
+            
+        
         List {
             ForEach(items) { item in
                 Text("Item at \(item.timestamp!, formatter: itemFormatter)")
@@ -28,6 +31,10 @@ struct ContentView: View {
             EditButton()
             #endif
 
+            Button(action: addItem) {
+                Label("Add Item", systemImage: "plus")
+            }
+        }
             Button(action: addItem) {
                 Label("Add Item", systemImage: "plus")
             }
